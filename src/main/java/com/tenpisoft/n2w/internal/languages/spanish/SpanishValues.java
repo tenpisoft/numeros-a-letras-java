@@ -76,6 +76,6 @@ public class SpanishValues {
     }
 
     public String currency() {
-        return "$ CON";
+        return "con";
     }
 }
