@@ -32,9 +32,9 @@ Agregar dependecia
 
 ```
 <dependency>
-    <groupId>com.github.User</groupId>
-    <artifactId>Repo</artifactId>
-    <version>Tag</version>
+    <groupId>com.github.tenpisoft</groupId>
+    <artifactId>s2w</artifactId>
+    <version>0.1.0</version>
 </dependency>
 ```
 
@@ -75,4 +75,4 @@ System.out.println(moneyAsWords); # mil doscientos treinta y cuatro con 56/100
 
 ## Créditos
 
-Esta librería esta basada en el código de [tradukisto](https://github.com/allegro/tradukisto) y el pull request para añadir el idioma español de [Carlos Feria](carlosthe19916).
+Esta librería esta basada en el código de [tradukisto](https://github.com/allegro/tradukisto) y el pull request para añadir el idioma español de [Carlos Feria](https://github.com/carlosthe19916).
