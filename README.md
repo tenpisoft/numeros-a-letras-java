@@ -1,6 +1,6 @@
 # n2w
 
-## Libería de Java para convertir números a letras con tipo de moneda.
+Libería de Java para convertir números a letras con tipo de moneda.
 
 **Tabla de contenidos**
 
@@ -42,7 +42,7 @@ Agregar dependecia
 
 En `build.gradle` agreagar al final de los repositorios
 
-```
+```groovy
 llprojects {
   repositories {
     ...
@@ -53,7 +53,7 @@ llprojects {
 
 Agregar dependencia
 
-```
+```groovy
 dependencies {
   implementation 'com.github.tenpisoft:n2w:0.1.0'
 }
@@ -61,13 +61,13 @@ dependencies {
 
 ## Uso
 
-```
+```java
 ValueConverters converter1 = ValueConverters.SPANISH_INTEGER;
 String valueAsWords = converter1.asWords(1_234);
 System.out.println(valueAsWords); # mil doscientos treinta y cuatro
 ```
 
-```
+```java
 MoneyConverters converter = MoneyConverters.SPANISH_BANKING_MONEY_VALUE;
 String moneyAsWords = converter.asWords(new BigDecimal("1234.56"));
 System.out.println(moneyAsWords); # mil doscientos treinta y cuatro con 56/100
