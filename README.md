@@ -19,7 +19,7 @@ Libería de Java para convertir números a letras con tipo de moneda.
 
 Agregar repositorio de jitpack
 
-```
+```xml
 <repositories>
   <repository>
       <id>jitpack.io</id>
@@ -30,7 +30,7 @@ Agregar repositorio de jitpack
 
 Agregar dependecia
 
-```
+```xml
 <dependency>
     <groupId>com.github.tenpisoft</groupId>
     <artifactId>s2w</artifactId>
