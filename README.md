@@ -35,7 +35,7 @@ Agregar dependecia
 ```xml
 <dependency>
     <groupId>com.github.tenpisoft</groupId>
-    <artifactId>s2w</artifactId>
+    <artifactId>n2w</artifactId>
     <version>0.1.0</version>
 </dependency>
 ```
