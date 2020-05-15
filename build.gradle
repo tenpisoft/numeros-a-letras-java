@@ -12,14 +12,12 @@ group 'com.github.tenpisoft'
 
 sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
-
-sourceCompatibility = 1.8
-
 compileJava {
     options.encoding = "UTF-8"
+}
+
+repositories {
+    mavenCentral()
 }
 
 dependencies {
