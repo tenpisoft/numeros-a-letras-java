@@ -4,7 +4,6 @@ import com.tenpisoft.n2w.internal.BigDecimalToStringConverter;
 import static com.google.common.base.Verify.verifyNotNull;
 import static com.tenpisoft.n2w.internal.Container.spanishContainer;
 
-
 import java.math.BigDecimal;
 
 public enum MoneyConverters {
