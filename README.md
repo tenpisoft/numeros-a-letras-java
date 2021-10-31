@@ -1,6 +1,6 @@
 [![](https://jitpack.io/v/tenpisoft/n2w.svg)](https://jitpack.io/#tenpisoft/n2w)
 
-# n2w
+# Números a letras
 
 Libería de Java para convertir números a letras con tipo de moneda.
 
